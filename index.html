@@ -126,12 +126,10 @@
 	</script>
 
 <script type="module">
-	
     import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
     Chatbot.init({
-        chatflowid: "46dcec83-eb44-4eaa-9d16-e81495781af6",
-        apiHost: "https://flowiseai-railway-l9mo-production.up.railway.app",
-				chatflowid: "d07c8fd6-5f1f-49bd-b1f4-50e86d75d36e",
+        chatflowid: "5b147f34-cdc2-4551-821c-d33afc9d8632",
+        apiHost: "http://82.25.109.226:3000",
         chatflowConfig: {
             /* Chatflow Config */
         },
@@ -148,14 +146,14 @@
                 iconColor: 'white',
                 customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                 autoWindowOpen: {
-                    autoOpen: false,
+                    autoOpen: true,
                     openDelay: 2,
                     autoOpenOnMobile: false
                 }
             },
             tooltip: {
                 showTooltip: true,
-                tooltipMessage: 'Halo Kamu 👋!',
+                tooltipMessage: 'Hi There 👋!',
                 tooltipBackgroundColor: 'black',
                 tooltipTextColor: 'white',
                 tooltipFontSize: 16
@@ -174,9 +172,9 @@
             chatWindow: {
                 showTitle: true,
                 showAgentMessages: true,
-                title: 'ChatBot Desa Candi',
+                title: 'Flowise Bot',
                 titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-                welcomeMessage: 'Halo! Saya ChatBot, Silakan bertanya seputar Desa Candi',
+                welcomeMessage: 'Hello! This is custom welcome message',
                 errorMessage: 'This is a custom error message',
                 backgroundColor: '#ffffff',
                 backgroundImage: 'enter image path or link',
@@ -184,11 +182,11 @@
                 width: 400,
                 fontSize: 16,
                 starterPrompts: [
-									"Siapa Kamu?",
-									"Luas Wilayah"
+                    "What is a bot?",
+                    "Who are you?"
                 ],
                 starterPromptFontSize: 15,
-                clearChatOnReload: true,  // Chat akan di-reset setiap sesi baru
+                clearChatOnReload: false,
                 sourceDocsTitle: 'Sources:',
                 renderHTML: true,
                 botMessage: {
@@ -232,237 +230,6 @@
             }
         }
     })
-</script>
-
-</body>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>DESA CANDI</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<script 
-		src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
-	</script>
-</head>
-<body>
-	<!-- loader -->
-	<div class="bg-loader">
-		<div class="loader"></div>
-	</div>
-
-	<!-- header -->
-	<div class="medsos">
-		<div class="container">
-			<ul>
-				<li><a href="#"><i class=""></i></a></li>
-			</ul>
-		</div>
-	</div>
-	<header>
-		<div class="container">
-			<h1><a>DESA CANDI</a></h1>
-			<ul>
-				<li class="active"><a href="index.html">PROFIL</a></li>
-				<li><a href="wisata.html">WISATA</a></li>
-				<li><a href="Magang/web.html">KEBUDAYAAN</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul>
-		</div>
-	</header>
-
-	<!-- banner -->
-	<section class="banner">
-		<h2>WEB RESMI DESA CANDI</h2>
-	</section>
-
-	<!-- about -->
-	<section class="about">
-		<div class="container">
-			<h3>POTENSI DESA</h3>
-			<p>Desa Candi memiliki beragam potensi dan keindahan di dalamnya yang sebagian masih belum diketahui oleh masyarakat luas. Selain pesona pemandangan alam daerah perbukitan dan objek wisata Candi Gedong Songo, Desa Candi memiliki potensi-potensi lain yang tersembunyi. Potensi unggulan Desa Candi yang selama ini menjadi icon penopang ekonomi warga adalah pertanian, perkebunan, industri rumah tangga, pariwisata dan lain sebagainya.</p>
-		</div>
-	</section>
-
-	<section class="wisata">
-		<div class="container">
-			<div class="content">
-				<div class="image1">
-					<img src="img/wahana7.jpeg" width="60%">
-				</div>
-				<div class="text">
-					<h2>Produksi Bunga</h2>
-					<p>Taman Celosia Bandungan adalah salah satu destinasi wisata populer yang terletak di kawasan Bandungan, Kabupaten Semarang, Jawa Tengah. Taman ini dikenal dengan keindahan taman bunga yang tertata rapi dan berbagai spot foto menarik yang instagramable. Nama "Celosia" diambil dari salah satu jenis bunga berwarna-warni yang menjadi daya tarik utama taman ini. Selain bunga celosia, taman ini juga dihiasi oleh berbagai jenis tanaman hias lainnya seperti bunga matahari, lavender, dan aneka bunga tropis yang menambah kesan ceria dan indah.</p>
-
-					<p>Taman Celosia Bandungan tidak hanya menawarkan pemandangan taman bunga yang memukau, tetapi juga dilengkapi dengan berbagai wahana dan fasilitas pendukung seperti rumah hobbit, miniatur bangunan terkenal dunia, kincir angin ala Belanda, dan area bermain anak. Suasana sejuk khas dataran tinggi Bandungan semakin menambah kenyamanan bagi para pengunjung. Dengan konsep taman tematik yang terus diperbarui, tempat ini sangat cocok untuk rekreasi keluarga, wisata edukasi, maupun sekadar bersantai sambil menikmati keindahan alam.</p>
-
-					<p>Lokasinya yang strategis, tidak jauh dari Candi Gedong Songo, membuat Taman Celosia sering menjadi pilihan wisatawan yang ingin berlibur di kawasan Bandungan. Kebersihan, keindahan, serta suasana yang nyaman menjadikan Taman Celosia sebagai salah satu destinasi favorit di Semarang.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="abouter">
-		<div class="container">
-			<h3>WISATA</h3>
-			<div class="content">
-				<div class="image1">
-					<img src="img/candi1.jpeg" width="60%">
-				</div>
-				<div class="text">
-					<h2>Candi Gedong Songo</h2>
-					<p>
-						Candi Gedong Songo adalah sebuah kompleks candi Hindu yang terletak di lereng Gunung Ungaran, tepatnya di Desa Candi, Kecamatan Bandungan, Kabupaten Semarang, Jawa Tengah. Nama "Gedong Songo" berasal dari bahasa Jawa, di mana "Gedong" berarti bangunan atau rumah, dan "Songo" berarti sembilan, merujuk pada sembilan bangunan candi yang ada di kawasan ini. Candi-candi tersebut diperkirakan dibangun pada abad ke-8 hingga ke-9 Masehi pada masa Kerajaan Mataram Kuno, dengan gaya arsitektur khas Hindu yang menampilkan relief-relief dewa-dewi seperti Siwa, Durga, dan Ganesha.
-					</p>
-					<p>
-						Candi Gedong Songo tersebar di beberapa titik di lereng gunung dengan ketinggian sekitar 1.200 meter di atas permukaan laut, sehingga setiap candi berada di lokasi yang berbeda-beda dan menawarkan panorama alam yang memukau. Fungsi utama dari candi ini pada masa lalu adalah sebagai tempat pemujaan dan ritual keagamaan, serta tempat bermeditasi para pendeta atau bangsawan kerajaan.
-					</p>
-					<p>
-						Selain nilai sejarah dan arkeologisnya, kawasan ini juga terkenal dengan pemandangan alam yang indah, udara yang sejuk, serta adanya sumber air panas alami yang mengandung belerang. Saat ini, Candi Gedong Songo menjadi salah satu destinasi wisata budaya dan alam favorit di Jawa Tengah, sekaligus menjadi bukti kejayaan peradaban Hindu di masa lampau. Pemerintah dan masyarakat setempat terus berupaya melestarikan dan mengembangkan kawasan ini agar tetap terjaga keberadaannya bagi generasi mendatang.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="wisata">
-		<div class="container">
-			<div class="content">
-				<div class="image1">
-					<img src="img/wahana1.jpeg" width="60%">
-				</div>
-				<div class="text">
-					<h2>Taman Celosia</h2>
-					<p>Taman Celosia Bandungan adalah salah satu destinasi wisata populer yang terletak di kawasan Bandungan, Kabupaten Semarang, Jawa Tengah. Taman ini dikenal dengan keindahan taman bunga yang tertata rapi dan berbagai spot foto menarik yang instagramable. Nama "Celosia" diambil dari salah satu jenis bunga berwarna-warni yang menjadi daya tarik utama taman ini. Selain bunga celosia, taman ini juga dihiasi oleh berbagai jenis tanaman hias lainnya seperti bunga matahari, lavender, dan aneka bunga tropis yang menambah kesan ceria dan indah.</p>
-
-					<p>Taman Celosia Bandungan tidak hanya menawarkan pemandangan taman bunga yang memukau, tetapi juga dilengkapi dengan berbagai wahana dan fasilitas pendukung seperti rumah hobbit, miniatur bangunan terkenal dunia, kincir angin ala Belanda, dan area bermain anak. Suasana sejuk khas dataran tinggi Bandungan semakin menambah kenyamanan bagi para pengunjung. Dengan konsep taman tematik yang terus diperbarui, tempat ini sangat cocok untuk rekreasi keluarga, wisata edukasi, maupun sekadar bersantai sambil menikmati keindahan alam.</p>
-
-					<p>Lokasinya yang strategis, tidak jauh dari Candi Gedong Songo, membuat Taman Celosia sering menjadi pilihan wisatawan yang ingin berlibur di kawasan Bandungan. Kebersihan, keindahan, serta suasana yang nyaman menjadikan Taman Celosia sebagai salah satu destinasi favorit di Semarang.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- footer -->
-	<footer>
-		<div class="container">
-			<small>Copyright &copy; 2025 - DesaCandi. All Rights Reserved.</small>
-		</div>
-	</footer>
-
-	<script>
-		type="text/javascript"
-		$(document).ready(function(){
-			$(".bg-loader").hide();
-		})
-	</script>
-
-<script type="module">
-	import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-	Chatbot.init({
-			chatflowid: "5b147f34-cdc2-4551-821c-d33afc9d8632",
-			apiHost: "http://82.25.109.226:3000",
-			chatflowConfig: {
-					/* Chatflow Config */
-			},
-			observersConfig: {
-					/* Observers Config */
-			},
-			theme: {
-					button: {
-							backgroundColor: '#3B81F6',
-							right: 20,
-							bottom: 20,
-							size: 48,
-							dragAndDrop: true,
-							iconColor: 'white',
-							customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-							autoWindowOpen: {
-									autoOpen: true,
-									openDelay: 2,
-									autoOpenOnMobile: false
-							}
-					},
-					tooltip: {
-							showTooltip: true,
-							tooltipMessage: 'Hi There 👋!',
-							tooltipBackgroundColor: 'black',
-							tooltipTextColor: 'white',
-							tooltipFontSize: 16
-					},
-					disclaimer: {
-							title: 'Disclaimer',
-							message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Condition</a>",
-							textColor: 'black',
-							buttonColor: '#3b82f6',
-							buttonText: 'Start Chatting',
-							buttonTextColor: 'white',
-							blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
-							backgroundColor: 'white'
-					},
-					customCSS: ``,
-					chatWindow: {
-							showTitle: true,
-							showAgentMessages: true,
-							title: 'Flowise Bot',
-							titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-							welcomeMessage: 'Hello! This is custom welcome message',
-							errorMessage: 'This is a custom error message',
-							backgroundColor: '#ffffff',
-							backgroundImage: 'enter image path or link',
-							height: 700,
-							width: 400,
-							fontSize: 16,
-							starterPrompts: [
-									"What is a bot?",
-									"Who are you?"
-							],
-							starterPromptFontSize: 15,
-							clearChatOnReload: false,
-							sourceDocsTitle: 'Sources:',
-							renderHTML: true,
-							botMessage: {
-									backgroundColor: '#f7f8ff',
-									textColor: '#303235',
-									showAvatar: true,
-									avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png'
-							},
-							userMessage: {
-									backgroundColor: '#3B81F6',
-									textColor: '#ffffff',
-									showAvatar: true,
-									avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
-							},
-							textInput: {
-									placeholder: 'Type your question',
-									backgroundColor: '#ffffff',
-									textColor: '#303235',
-									sendButtonColor: '#3B81F6',
-									maxChars: 50,
-									maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
-									autoFocus: true,
-									sendMessageSound: true,
-									sendSoundLocation: 'send_message.mp3',
-									receiveMessageSound: true,
-									receiveSoundLocation: 'receive_message.mp3'
-							},
-							feedback: {
-									color: '#303235'
-							},
-							dateTimeToggle: {
-									date: true,
-									time: true
-							},
-							footer: {
-									textColor: '#303235',
-									text: 'Powered by',
-									company: 'Flowise',
-									companyLink: 'https://flowiseai.com'
-							}
-					}
-			}
-	})
 </script>
 
 
