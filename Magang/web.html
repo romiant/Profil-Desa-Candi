@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Desa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .btn-custom.active {
+            background-color: #198754;
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container mt-4">
+        <header class="text-center bg-success text-white py-4 rounded-top">
+            <h1 class="fw-bold">Desa Candi</h1>
+        </header>
+
+        <div class="row text-center my-3">
+            <div class="col-6 col-md-3 mb-2">
+                <button class="btn btn-outline-success btn-custom w-100" onclick="window.location.href='../index.html'">Kembali ke Profil</button>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+                <button class="btn btn-outline-success btn-custom w-100 active" onclick="showContent('tentang', this)">Tentang Desa</button>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+                <button class="btn btn-outline-success btn-custom w-100" onclick="showContent('sejarah', this)">Sejarah Singkat Desa</button>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+                <button class="btn btn-outline-success btn-custom w-100" onclick="showContent('kebudayaan', this)">Kebudayaan</button>
+            </div>
+            <div class="col-6 col-md-3 mb-2">
+                <button class="btn btn-outline-success btn-custom w-100" onclick="showContent('potensi', this)">Potensi Desa</button>
+            </div>
+        </div>
+
+        <div id="tentang" class="content p-4 border rounded shadow bg-white">
+            <h1 class="mt-3"><b>Tentang Desa</b></h1>
+            <img src="tentang.jpg" alt="Tentang Desa" class="img-fluid rounded">
+            <p class="mt-3">Candi adalah sebuah desa di kecamatan Bandungan, Semarang, Jawa Tengah, Indonesia. Jarak desa ini dari ibu kota kecamatan adalah sekitar 2 km. Desa Candi memiliki sebuah tempat wisata andalan Kabupaten Semarang, yaitu Candi Gedong Songo.</p>
+            <p class="mt-3">Selain itu, Desa Candi juga menawarkan destinasi wisata lain seperti Taman Bunga Celosia, yang menyediakan berbagai hiburan dan spot foto menarik. Udara sejuk dengan suhu berkisar antara 20-29 derajat Celsius yang menambah kenyamanan bagi para pengunjung.</p>  
+        </div>
+
+        <div id="sejarah" class="content p-4 border rounded shadow bg-white d-none">
+            <h1 class="mt-3"><b>Sejarah Singkat Desa</b></h1>
+            <img src="sejarah.jpg" alt="Sejarah Singkat Desa" class="img-fluid rounded">
+            <p class="mt-3">Desa Candi di Kecamatan Bandungan, Kabupaten Semarang, memiliki sejarah yang berkaitan dengan Kerajaan Kalingga yang dipimpin oleh Ratu Shima, seorang ratu yang terkenal adil dan bijaksana. Ia mengajarkan rakyatnya untuk hidup jujur, ikhlas, taqwa, dan ulet. Demi meninggalkan warisan bagi generasi mendatang, Ratu Shima memerintahkan pembangunan candi sebagai tempat ibadah yang mendekati Suralaya, tempat para dewa bersemayam.</p>
+            <p class="mt-3">Dua Mpu sakti, Ki Hajar Selakantara dan Ki Hajar Watangrana, dipanggil untuk menjalankan tugas tersebut. Bersama Roro Komariyah dan para prajurit pilihan, mereka berjalan selama empat puluh hari hingga menemukan lokasi yang dianggap sesuai. Namun, terjadi perbedaan pendapat. Ki Hajar Watangrana merasa lokasi tersebut masih jauh dari Suralaya dan memilih tempat lain di utara, sedangkan Ki Hajar Selakantara bersikeras tetap di lokasi awal.</p>
+            <p class="mt-3">Perselisihan ini menyebabkan perpecahan di antara para pengikut mereka dan berujung pada pertempuran. Ki Hajar Watangrana akhirnya membangun candi di lokasi pilihannya. Sementara itu, Ki Hajar Selakantara meninggalkan candi yang belum selesai dan berujar bahwa kelak tempat ini akan dikenal sebagai Desa Candi.</p>
+        </div>
+
+        <div id="kebudayaan" class="content p-4 border rounded shadow bg-white d-none">
+            <h1 class="mt-3"><b>Kebudayaan</b></h1>
+            <img src="kebudayaan.jpg" alt="Kebudayaan" class="img-fluid rounded">
+
+            <div class="mt-4">
+                <img src="nyadran.jpg" alt="Nyadran" class="img-thumbnail mb-2" width="150">
+                <p class="mt-3"><b>1. Nyadran</b></p>
+                <p>Pengertian: Tradisi ziarah dan membersihkan makam leluhur.</p>
+                <p>Kegunaan: Bentuk penghormatan kepada leluhur dan doa bersama.</p>
+                <p>Pelaksanaan: Biasanya menjelang Ramadan.</p> 
+            </div>
+
+            <div class="mt-4">
+                <img src="bersih.jpg" alt="Merti Dusun" class="img-thumbnail mb-2" width="150">
+                <p class="mt-3"><b>2. Merti Dusun / Bersih Dusun</b></p>
+                <p>Pengertian: Ritual membersihkan desa sebagai ungkapan syukur.</p>
+                <p>Kegunaan: Memohon berkah dan keselamatan bagi warga desa.</p>
+                <p>Pelaksanaan: Biasanya setahun sekali, tergantung adat setempat.</p>  
+            </div>
+
+            <div class="mt-4">
+                <img src="reog.jpg" alt="Reog" class="img-thumbnail mb-2" width="150">
+                <p class="mt-3"><b>3. Reog</b></p>
+                <p>Pengertian: Pertunjukan seni tradisional dengan unsur magis dan kekuatan fisik.</p>
+                <p>Kegunaan: Hiburan rakyat, pelestarian budaya, dan bagian dari upacara adat.</p>
+                <p>Pelaksanaan: Hajatan warga atau berbagai acara.</p>  
+            </div>
+        </div>
+
+        <div id="potensi" class="content p-4 border rounded shadow bg-white d-none">
+            <h1 class="mt-3"><b>Potensi Desa</b></h1>
+            <img src="potensi.jpg" alt="Potensi Desa" class="img-fluid rounded">
+
+            <p class="mt-3"><b>1. Sumber Daya Alam</b></p>
+            <p>Desa Candi memiliki kelerengan landai yaitu 8 – 15% yang berpotensi untuk dijadikan sebagai tempat perdagangan karena dilalui oleh jalan utama yang menghubungkan Kecamatan Bandungan dengan kecamatan sekitar. Banyaknya kendaraan bisa dimanfaatkan penduduk untuk berjualan di sepanjang jalan utama tersebut.</p>
+            <p>Tanah di Desa Candi terdiri dari Andosol Coklat Tua dan Latosol Coklat Tua yang bersifat asam dan memiliki produktivitas tinggi, didukung curah hujan 2500–3000 mm/tahun. Desa ini sangat cocok untuk lahan pertanian seperti padi dan perkebunan seperti tembakau.</p>
+
+            <p class="mt-3"><b>2. Sumber Daya Manusia</b></p>
+            <p>Jumlah penduduk 7.355 jiwa (3.685 laki-laki dan 3.670 perempuan), mayoritas pada rentang usia produktif. Pekerjaan didominasi oleh sektor pertanian/perkebunan. Agama mayoritas adalah Islam, disusul Katolik dan Kristen, sehingga banyak terdapat masjid dan mushola.</p>
+
+            <p class="mt-3"><b>3. Ekonomi</b></p>
+            <p>Sebagian besar masyarakat Desa Candi bekerja sebagai petani/pekebun karena tanah yang subur dan iklim yang mendukung. Selain itu, objek wisata Candi Gedong Songo menjadi sumber pendapatan lain bagi desa melalui sektor pariwisata.</p>
+        </div>
+
+        <footer class="bg-info text-white text-center py-3 mt-4 rounded-bottom">
+            &copy; 2025 Website Desa - All Right Reserved
+        </footer>
+    </div>
+
+    <script>
+        function showContent(id, btn) {
+            document.querySelectorAll('.content').forEach(el => el.classList.add('d-none'));
+            document.getElementById(id).classList.remove('d-none');
+
+            // Ubah status tombol aktif
+            document.querySelectorAll('.btn-custom').forEach(button => button.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
